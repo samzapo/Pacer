@@ -1,4 +1,4 @@
-#Pacer Project Repository
+# Pacer Project Repository
 by Sam Zapolsky @ the [Positronics Lab]
 
 [Positronics Lab]: http://robotics.gwu.edu/positronics/
@@ -11,15 +11,15 @@ This repository hosts code for [Pacer] an open source robot locomotion library f
 
 [wiki]: https://github.com/PositronicsLab/Pacer/wiki
 
-##Dependencies 
+## Dependencies 
 
-####Required 
+#### Required 
 
 - [Ravelin] 
 - [Moby] 
 - Boost 
 
-####Optional 
+#### Optional 
 
 - OpenSceneGraph
 - [DXL]
@@ -95,7 +95,7 @@ This will point `Gazebo` and `Pacer` to the models and build directories.  `setu
 
   *NOTE:* `Pacer` will read the file `vars.xml` in the working directory on startup.  This file sets parameters in all controller plugins, as well as telling `Pacer` which plugins to load. 
 
-##Usage
+## Usage
 
 Access the library by using the examples found in the examples directory:
 
